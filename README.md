@@ -36,6 +36,10 @@ draft: false  # 草稿
 
 ## 基础用法
 
+### 系统快捷键
+
+- [将 Win+E 改成指定的其他文件浏览器](docs/hotkey/explorer.md)
+
 ## 基础语法
 
 ## 库
