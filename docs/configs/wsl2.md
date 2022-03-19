@@ -7,6 +7,7 @@ author: "Rustle Karl"  # 作者
 title: "WSL2"  # 文章标题
 url:  "posts/windows/wsl2"  # 设置网页链接，默认使用文件名
 tags: [ "windows", "wsl2"]  # 自定义标签
+series: [ "Windows 常见问题与技巧"]  # 系列
 
 # 章节
 weight: 20 # 文章在章节中的排序优先级，正序排序
