@@ -18,6 +18,14 @@ toc: true  # 是否自动生成目录
 draft: false  # 草稿
 ---
 
+## 由于系统更新导致的
+
+控制面板- 防火墙-高级设置-出站规则-新建-端口
+
+增加 udp 和 tcp 的所有端口，允许连接。
+
+重启电脑。
+
 ## 查询端口占用
 
 ```shell
@@ -93,6 +101,12 @@ Docker
 
 ```shell
 netsh int ipv4 add excludedportrange protocol=tcp startport=14000 numberofports=100
+```
+
+NutVPN
+
+```shell
+netsh int ipv4 add excludedportrange protocol=tcp startport=8800 numberofports=100
 ```
 
 1. 开启 Hyper-V
