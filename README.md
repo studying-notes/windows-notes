@@ -33,3 +33,4 @@ draft: false  # 草稿
 
 - [任务管理器中的内存](docs/questions/memory.md)
 - [将 Win+E 改成指定的其他文件浏览器](docs/questions/explorer.md)
+- [Windows 与 IDEA 热键冲突问题](docs/questions/idea_hotkey.md)
