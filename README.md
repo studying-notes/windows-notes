@@ -30,3 +30,5 @@ draft: false  # 草稿
 - [Windows 重装系统后配置指南](quickstart/reinstall.md)
 
 ## 问题记录
+
+- [资源管理器中的内存](docs/questions/memory.md)
