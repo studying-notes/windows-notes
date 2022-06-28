@@ -2,21 +2,31 @@
 date: 2020-10-11T22:23:19+08:00  # 创建日期
 author: "Rustle Karl"  # 作者
 
-# 文章
-title: "PowerShell 常用命令"  # 文章标题
-url:  "posts/ps/docs/windows_scripts"  # 设置网页永久链接
-tags: [ "powershell", "skills"]  # 标签
-series: [ "终端学习笔记"]  # 文章主题/文章系列
-categories: [ "学习笔记"]  # 分类
-
-# 章节
-weight: 20 # 排序优先级
-chapter: false  # 设置为章节
+title: "Windows 常用命令行命令"  # 文章标题
+url:  "posts/windows/docs/scripts"  # 设置网页永久链接
+tags: [ "powershell", "windows"]  # 标签
+categories: [ "Windows 学习笔记" ]
 
 index: true  # 是否可以被索引
 toc: true  # 是否自动生成目录
 draft: false  # 草稿
 ---
+
+- [打开休眠功能](#打开休眠功能)
+- [获取文件的 MD5 码](#获取文件的-md5-码)
+- [重启资源管理器](#重启资源管理器)
+- [快速删除大量文件](#快速删除大量文件)
+- [正则匹配删除文件](#正则匹配删除文件)
+- [复制文件夹](#复制文件夹)
+- [Windows 服务相关](#windows-服务相关)
+  - [服务安装脚本](#服务安装脚本)
+  - [服务卸载脚本](#服务卸载脚本)
+  - [设置服务失败不断自启](#设置服务失败不断自启)
+  - [删除服务](#删除服务)
+- [打开配置文件](#打开配置文件)
+- [重载配置文件](#重载配置文件)
+- [允许执行脚本](#允许执行脚本)
+- [持续 ping](#持续-ping)
 
 ## 打开休眠功能
 
