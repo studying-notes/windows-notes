@@ -36,6 +36,8 @@ draft: false  # 草稿
 
 ## 基础用法
 
+- [解决 Windows 端口占用类问题](docs/cmds/netstat.md)
+
 ### 系统快捷键
 
 - [将 Win+E 改成指定的其他文件浏览器](docs/hotkey/explorer.md)
