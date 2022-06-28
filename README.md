@@ -35,3 +35,4 @@ draft: false  # 草稿
 - [将 Win+E 改成指定的其他文件浏览器](docs/questions/explorer.md)
 - [Windows 与 IDEA 热键冲突问题](docs/questions/idea_hotkey.md)
 - [WSL 问题记录](docs/questions/wsl.md)
+- [解决 Windows 端口占用类问题](docs/questions/port.md)

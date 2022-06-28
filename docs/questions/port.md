@@ -2,12 +2,10 @@
 date: 2020-10-11T21:33:01+08:00  # 创建日期
 author: "Rustle Karl"  # 作者
 
-# 文章
-title: "解决 Windows 端口占用类问题"  # 文章标题
-# description: "文章描述"
-url:  "posts/windows/netstat"  # 设置网页永久链接
-tags: [ "windows", "netstat"]  # 标签
-series: [ "Windows 常见问题与技巧"]  # 系列
+title: "解决 Windows 端口占用类问题"
+url:  "posts/windows/docs/questions/port"
+tags: [ "windows", "netstat"]
+categories: [ "Windows 常见问题与技巧"]
 
 # 章节
 weight: 20 # 排序优先级
@@ -114,4 +112,3 @@ netsh int ipv4 add excludedportrange protocol=tcp startport=8800 numberofports=1
 ```shell
 dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
 ```
-
