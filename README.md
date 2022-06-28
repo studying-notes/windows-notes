@@ -21,31 +21,12 @@ draft: false  # 草稿
 
 ## 目录结构
 
-- `assets/images`: 笔记配图
 - `assets/templates`: 笔记模板
-- `docs`: 基础语法
-- `libraries`: 库
-  - `libraries/standard`: 标准库
-  - `libraries/tripartite`: 第三方库
+- `docs`: 基础教程
 - `quickstart`: 基础用法
-- `src`: 源码示例
-  - `src/docs`: 基础语法源码示例
-  - `src/libraries/standard`: 标准库源码示例
-  - `src/libraries/tripartite`: 第三方库源码示例
-  - `src/quickstart`: 基础用法源码示例
 
-## 基础用法
+## 系统配置
 
-- [解决 Windows 端口占用类问题](docs/cmds/netstat.md)
+- [Windows 重装系统后配置指南](quickstart/reinstall.md)
 
-### 系统快捷键
-
-- [将 Win+E 改成指定的其他文件浏览器](docs/hotkey/explorer.md)
-
-## 基础语法
-
-## 库
-
-## 标准库
-
-## 第三方库
+## 问题记录
