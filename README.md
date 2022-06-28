@@ -40,3 +40,4 @@ draft: false  # 草稿
 ## 常用功能
 
 - [获取正在运行的程序的启动命令](docs/program.md)
+- [Windows 上四种不同的文件链接方式](docs/link.md)

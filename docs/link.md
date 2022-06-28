@@ -2,29 +2,15 @@
 date: 2021-01-23T14:03:24+08:00  # 创建日期
 author: "Rustle Karl"  # 作者
 
-# 文章
-title: "Windows 上四种不同的文件链接方式"  # 文章标题
-description: "Mklink 解决 OneDrive 忽略指定文件夹同步"
-url:  "posts/windows/mklink"  # 设置网页永久链接
-tags: [ "windows", "mklink"]  # 标签
-series: [ "Windows 常见问题与技巧"]  # 系列
-
-# 章节
-weight: 20 # 排序优先级
-chapter: false  # 设置为章节
+title: "Windows 上四种不同的文件链接方式"
+url:  "posts/windows/docs/link"
+tags: [ "windows", "mklink"]
+categories: [ "Windows 常见问题与技巧"]
 
 index: true  # 是否可以被索引
 toc: true  # 是否自动生成目录
 draft: false  # 草稿
 ---
-
-## 解决 node_modules 同步问题
-
-目录联接：
-
-```ps1
-cmd /C "mklink /J node_modules D:\Data\node_modules"
-```
 
 ## 不同的链接方式
 
@@ -60,35 +46,3 @@ MKLINK [[/D] | [/H] | [/J]] Link Target
 | 删除方法 | del | rd | rd / del |
 | 当链接被单独删除后 | 只有所有指向原始文件的硬链接和原始文件全部删除后文件数据才会被删除。 | Windows Vista 之后原始文件夹不受影响；Windows 2000/XP/2003 会导致原始子文件夹被删除。 | 原始文件夹不受影响。 |
 | 当原始文件被单独删除后 | 硬链接依然能正常访问到文件的数据。 | 目录联接失效，指向不存在的目录。 | 符号链接失效，指向不存在的目录。 |
-
-```cmd
-
-```
-
-```cmd
-
-```
-
-```cmd
-
-```
-
-```cmd
-
-```
-
-```cmd
-
-```
-
-```cmd
-
-```
-
-```cmd
-
-```
-
-```cmd
-
-```
