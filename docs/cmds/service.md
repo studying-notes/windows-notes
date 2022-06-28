@@ -1,1 +1,0 @@
-sc create ceshi binpath= C:\Users\Admin\OneDrive\Repositories\works\immigration_office_webapp\dist\main.cex type= own start= auto displayname= ceshi
