@@ -31,4 +31,5 @@ draft: false  # 草稿
 
 ## 问题记录
 
-- [资源管理器中的内存](docs/questions/memory.md)
+- [任务管理器中的内存](docs/questions/memory.md)
+- [将 Win+E 改成指定的其他文件浏览器](docs/questions/explorer.md)

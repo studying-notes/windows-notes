@@ -2,7 +2,7 @@
 date: 2022-06-28T16:49:30+08:00
 author: "Rustle Karl"
 
-title: "资源管理器中的内存"
+title: "任务管理器中的内存"
 url:  "posts/windows/docs/questions/memory"  # 永久链接
 tags: [ "Windows", "README" ]
 categories: [ "Windows 学习笔记" ]

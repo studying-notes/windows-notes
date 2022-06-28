@@ -87,8 +87,6 @@ Docker 官网有关 WSL 的文档说明 https://docs.docker.com/docker-for-windo
 
 ![](https://i.loli.net/2020/12/05/XIy9j64MzxvKWmw.png)
 
-{{< image src="/posts/imgs/windows/wsl2_docker_distro.png" alt="wsl2_docker_distro" position="center" style="border-radius: 8px;" >}}
-
 ## GCC
 
 移动目录后运行安装程序进行修复即可。
